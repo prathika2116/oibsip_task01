@@ -1,0 +1,89 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: 'Fasthand', cursive;
+}
+body{
+    background-color: rgb(25, 25, 25);
+}
+header nav{
+    border:1px solid purple;
+    border-radius:0px 0px 25px 25px;
+}
+header nav{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: end;
+    background-color: rgb(167, 86, 167);
+}
+.logo{
+    margin-right:auto;
+   
+}
+.logo img{
+    border: 1px solid purple ;
+    border-radius: 7px;
+}
+header nav ul{
+    list-style: none;
+    display: flex;
+}
+nav ul li{
+    padding-left: 20px;
+    color: aliceblue;
+    font-weight: 500;
+    font-size:19px;
+}
+nav button{
+    margin-left: 20px;
+    color:aliceblue;
+    background-color: rgb(180, 103, 178);
+    padding: 10px;
+    border: 1px solid purple;
+    border-radius: 5px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    padding: 150px 30px;
+  }
+  .left,.right
+  {
+    flex:1;
+  }
+  .left p{
+    margin-top: 50px;
+    color: rgb(42, 211, 245);
+    font-weight: 400;
+    font-size: 25px;
+  }
+  .left button{
+    margin-top: 20px;
+    color:aliceblue;
+    background-color: rgb(180, 103, 178);
+    padding: 10px;
+    border: 1px solid purple;
+    border-radius: 5px;
+    height: 50px;
+    width: 150px;
+    font-weight: 600;
+    font-size: 17px;
+  }
+  .left h1{
+    color:rgb(230, 165, 13);    
+    font-weight: 600;
+    font-size: 50px;
+  }
+  .left h4{
+    color: rgb(244, 58, 11);
+    font-weight: 600;
+    font-size: 22px;
+  }
+.right{
+    margin-left: 20px;
+}
+.right img{
+    border-radius: 25px;
+}
